@@ -4,8 +4,10 @@ A DGAN that generate Cat pictures
 <img src="assets/output.png" alt="CatDCGAN Output" />
 
 <p> Cat DCGAN is a Deep Convolutional Generative Adversarial Network (DCGAN) <b>that generates pictures of cats</b> </p>
-This is an open source project
-
+This is an open source project 
+<br>
+🌐 : https://simoninithomas.github.io/CatDCGAN/
+<br><br>
 <p> If you have any questions, <b> feel free to ask me: </b> </p>
 <p> 📧: <a href="mailto:hello@simoninithomas.com">hello@simoninithomas.com</a>  </p>
 <p> Github: https://github.com/simoninithomas/CatDCGAN </p>
