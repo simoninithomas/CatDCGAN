@@ -20,6 +20,7 @@ Our Architecture:<br><br>
 
 ## Getting Started 📝
 - Download the dataset here: https://www.kaggle.com/crawford/cat-dataset
+- <b> Download the model checkpoint </b> : https://drive.google.com/drive/folders/1zdZZ91fjOUiOsIdAQKZkUTATXzqy7hiz?usp=sharing
 - Type `sh start.sh` it will handle extract, remove outliers, normalization and face centering
 - Launch Jupyter Notebook `jupyter notebook --no-browser`
 - Launch CatDCGAN
