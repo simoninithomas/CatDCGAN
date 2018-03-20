@@ -11,7 +11,6 @@ This is an open source project
 If you want to implement it by yourself and understand how it works, <b>please read my article on FreeCodeCamp</b>  https://medium.freecodecamp.org/how-ai-can-learn-to-generate-pictures-of-cats-ba692cb6eae4">here
 
 <br>
-<br>
 
 ## Links 🔗
 🌐 : https://simoninithomas.github.io/CatDCGAN/
