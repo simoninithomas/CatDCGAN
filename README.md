@@ -8,7 +8,7 @@ This is an open source project
 <br>
 
 ## The tutorial 📃
-If you want to implement it by yourself and understand how it works, please read my article on FreeCodeCamp <a href=" https://medium.freecodecamp.org/how-ai-can-learn-to-generate-pictures-of-cats-ba692cb6eae4">here</a>
+If you want to implement it by yourself and understand how it works, <b>please read my article on FreeCodeCamp</b> <a href=" https://medium.freecodecamp.org/how-ai-can-learn-to-generate-pictures-of-cats-ba692cb6eae4">here</a>
 
 🌐 : https://simoninithomas.github.io/CatDCGAN/
 <br><br>
