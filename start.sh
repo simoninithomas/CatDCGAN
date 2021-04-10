@@ -5,22 +5,23 @@
 # wget -nc http://www.simoninithomas.com/data/cats.zip
 
 ## Setting up folder
-unzip cats-dataset.zip -d cat_dataset
+mkdir cat_dataset
+#unzip cats-dataset.zip -d cat_dataset
 unzip cats.zip
-mv cat_dataset/CAT_00/* cat_dataset
-rmdir cat_dataset/CAT_00
-mv cat_dataset/CAT_01/* cat_dataset
-rmdir cat_dataset/CAT_01
-mv cat_dataset/CAT_02/* cat_dataset
-rmdir cat_dataset/CAT_02
-mv cat_dataset/CAT_03/* cat_dataset
-rmdir cat_dataset/CAT_03
-mv cat_dataset/CAT_04/* cat_dataset
-rmdir cat_dataset/CAT_04
-mv cat_dataset/CAT_05/* cat_dataset
-rmdir cat_dataset/CAT_05
-mv cat_dataset/CAT_06/* cat_dataset
-rmdir cat_dataset/CAT_06
+mv CAT_00/* cat_dataset
+rmdir CAT_00
+mv CAT_01/* cat_dataset
+rmdir CAT_01
+mv CAT_02/* cat_dataset
+rmdir CAT_02
+mv CAT_03/* cat_dataset
+rmdir CAT_03
+mv CAT_04/* cat_dataset
+rmdir CAT_04
+mv CAT_05/* cat_dataset
+rmdir CAT_05
+mv CAT_06/* cat_dataset
+rmdir CAT_06
 
 ## Error correction
 rm cat_dataset/00000003_019.jpg.cat
@@ -36,7 +37,7 @@ cd ..
 ## Preprocessing and putting in folders for different image sizes
 mkdir cats_bigger_than_64x64
 mkdir cats_bigger_than_128x128
-python preprocess_cat_dataset.py
+python3 preprocess_cat_dataset.py
 
 ## Removing cat_dataset
 rm -r cat_dataset
